@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash_gradient_background">
+
+    <!-- 画面中央のロゴ＋アプリ名 -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <!-- 白い丸の中の食パン（ゆらゆら揺れる） -->
+        <TextView
+            android:id="@+id/tvBread"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:background="@drawable/splash_logo_circle"
+            android:elevation="8dp"
+            android:gravity="center"
+            android:text="🍞"
+            android:textSize="56sp" />
+
+        <!-- アプリ名 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:gravity="center"
+            android:text="食べ食べ\nアンパンサーチ"
+            android:textColor="#3B2F2F"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <!-- サブタイトル -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="近くのおいしいお店を探そう"
+            android:textColor="#8A5A00"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+</FrameLayout>

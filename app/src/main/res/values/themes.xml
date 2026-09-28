@@ -1,0 +1,26 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- アプリ全体の基本テーマ（Material3ベース） -->
+    <style name="Base.Theme.ProjectFood" parent="Theme.Material3.Light.NoActionBar">
+
+        <!-- メインカラー：ボタン、スピナー、プログレスバーなどに反映される -->
+        <item name="colorPrimary">@color/green_main</item>
+        <item name="colorOnPrimary">@color/text_primary</item>
+        <item name="colorPrimaryContainer">@color/green_light</item>
+        <item name="colorOnPrimaryContainer">@color/green_dark</item>
+
+        <!-- サブカラー（ポイントカラー） -->
+        <item name="colorSecondary">@color/accent_orange</item>
+        <item name="colorOnSecondary">@color/white</item>
+
+        <!-- 背景と文字色 -->
+        <item name="android:colorBackground">@color/background_cream</item>
+        <item name="colorSurface">@color/background_cream</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+        <item name="colorOnBackground">@color/text_primary</item>
+
+        <!-- ステータスバーの色 -->
+        <item name="android:statusBarColor">@color/green_dark</item>
+    </style>
+
+    <style name="Theme.ProjectFood" parent="Base.Theme.ProjectFood" />
+</resources>

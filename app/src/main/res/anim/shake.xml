@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fillAfter="true"
+    android:interpolator="@android:anim/decelerate_interpolator">
+
+    <!-- 左右にゆらゆら揺れる（-15度 ⇄ +15度を繰り返す） -->
+    <rotate
+        android:duration="250"
+        android:fromDegrees="-15"
+        android:pivotX="50%"
+        android:pivotY="90%"
+        android:repeatCount="6"
+        android:repeatMode="reverse"
+        android:toDegrees="15" />
+
+</set>
